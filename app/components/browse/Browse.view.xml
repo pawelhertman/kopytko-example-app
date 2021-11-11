@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component name="BrowseView" extends="KopytkoGroup">
+  <script type="text/brightscript" uri="Browse.template.brs" />
+  <script type="text/brightscript" uri="Browse.view.brs" />
+</component>
