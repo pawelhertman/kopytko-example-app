@@ -13,6 +13,7 @@
     "glob-promise": "^4.2.2"
   },
   "dependencies": {
-    "@dazn/kopytko-framework": "^1.0.1"
+    "@dazn/kopytko-framework": "^1.0.1",
+    "@dazn/kopytko-utils": "^2.0.0"
   }
 }

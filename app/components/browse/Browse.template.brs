@@ -5,7 +5,7 @@ function render() as object
       props: {
         id: "label",
         color: "0xFFFFFFFF"
-        text: "Browse",
+        text: "BrowseView. Details number: " + m.detailsNumber.toStr(),
         horizOrigin: "center",
         vertOrigin: "center",
         translation: "[960, 540]",

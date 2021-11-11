@@ -1,6 +1,10 @@
 ' @import /components/router/Router.facade.brs from @dazn/kopytko-framework
+' @import /components/store/Store.facade.brs from @dazn/kopytko-framework
 sub constructor()
   m._router = RouterFacade()
+  m._store = StoreFacade()
+
+  m.detailsNumber = m._store.get("detailsNumber")
 end sub
 
 sub componentDidMount()
