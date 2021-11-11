@@ -11,5 +11,30 @@ function render() as object
         translation: "[960, 540]",
       },
     },
+    {
+      name: "LayoutGroup",
+      props: {
+        id: "container",
+        layoutDirection: "horiz"
+        horizAlignment: "center",
+        translation: "[960, 640]",
+      },
+      children: [
+        {
+          name: "Button",
+          props: {
+            id: "navigationButton",
+            text: "Go to /details route",
+          },
+          events: {
+            buttonSelected: "_onNavigationButtonSelected",
+          },
+        },
+        {
+          name: "Button",
+          props: { id: "emptyButton", text: "Do nothing" },
+        },
+      ],
+    },
   ]
 end function
