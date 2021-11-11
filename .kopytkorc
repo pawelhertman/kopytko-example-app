@@ -1,3 +1,14 @@
 {
-    "baseManifest": "manifest.js"
+  "baseManifest": "manifest.js",
+  "pluginDefinitions": {
+    "remove-test-code": "/plugins/remove-test-code"
+  },
+  "plugins": [
+    {
+      "name": "kopytko-copy-external-dependencies",
+      "preEnvironmentPlugin": true
+    },
+    "remove-test-code",
+    "kopytko-import-dependencies"
+  ]
 }

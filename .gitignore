@@ -1,3 +1,4 @@
 node_modules
 dist
 .env
+.kopytko_packager_temp

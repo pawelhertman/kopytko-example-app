@@ -9,6 +9,10 @@
   "author": "Paweł Hertman <pawel@hertman.eu>",
   "license": "ISC",
   "devDependencies": {
-    "@dazn/kopytko-packager": "^1.0.3"
+    "@dazn/kopytko-packager": "^1.0.3",
+    "glob-promise": "^4.2.2"
+  },
+  "dependencies": {
+    "@dazn/kopytko-framework": "^1.0.1"
   }
 }
