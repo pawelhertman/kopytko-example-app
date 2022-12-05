@@ -1,6 +1,10 @@
+' @import /components/common/rokuComponents/AppInfo.brs
 function getRequestOptions(options as Object) as Object
   return {
-    url: "https://dog-facts-api.herokuapp.com/api/v1/resources/dogs?number=1",
+    url: "https://api.api-ninjas.com/v1/facts?limit=1",
+    headers: {
+      "X-Api-Key": AppInfo().getValue("apiKey")
+    }
   }
 end function
 

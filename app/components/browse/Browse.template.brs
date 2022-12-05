@@ -37,8 +37,8 @@ function render() as object
       ],
     },
     {
-      name: "DogFact",
-      props: { id: "dogFact", translation: [100, 800] },
+      name: "Fact",
+      props: { id: "fact", translation: [100, 800] },
     }
   ]
 end function

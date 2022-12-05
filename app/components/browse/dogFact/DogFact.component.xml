@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-
-<component name="DogFact" extends="KopytkoGroup">
-  <script type="text/brightscript" uri="DogFact.template.brs" />
-  <script type="text/brightscript" uri="DogFact.component.brs" />
-</component>
