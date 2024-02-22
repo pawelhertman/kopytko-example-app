@@ -8,9 +8,9 @@ function getRequestOptions(options as Object) as Object
   }
 end function
 
-function parseResponseData(data as Object) as Object
+function parseResponse(response as Object) as Object
   parsedData = CreateObject("roSGNode", "Node")
-  parsedData.addFields(data[0])
+  parsedData.addFields(response.raw.data[0])
 
   return parsedData
 end function

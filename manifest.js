@@ -5,6 +5,7 @@ module.exports = {
   title: 'Kopytko Example App',
   ui_resolutions: 'fhd',
   bs_const: {
+    enableKopytkoComponentDidCatch: false,
     RALE: true,
   },
   // custom fields
