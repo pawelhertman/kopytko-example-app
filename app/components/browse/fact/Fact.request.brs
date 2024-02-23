@@ -1,4 +1,4 @@
-' @import /components/common/rokuComponents/AppInfo.brs
+' @import /components/rokuComponents/AppInfo.brs from @dazn/kopytko-utils
 function getRequestOptions(options as Object) as Object
   return {
     url: "https://api.api-ninjas.com/v1/facts?limit=1",
